@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Header from "./component/Header";
 import Tasks from "./component/Tasks";
 import AddTask from "./component/AddTask";
-import { data } from "autoprefixer";
 function App() {
   const [task,setTask] = useState([]);
   const [addTaskComp,setAddTaskComp] = useState(false);
